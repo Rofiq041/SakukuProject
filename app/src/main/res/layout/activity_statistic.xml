@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo Saat Ini"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/saldoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 3.250.000"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistik Keuangan"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bulananButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulanan" />
+
+        <Button
+            android:id="@+id/mingguanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mingguan" />
+
+        <Button
+            android:id="@+id/tahunanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahunan" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengeluaran per Kategori"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/foodTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makanan - 35%"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/transportTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportasi - 25%"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/shoppingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belanja - 20%"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/entertainmentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hiburan - 15%"
+            android:padding="8dp" />
+    </LinearLayout>
+</LinearLayout>

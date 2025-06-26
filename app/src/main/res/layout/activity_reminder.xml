@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Pengingat -->
+    <TextView
+        android:id="@+id/reminderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengingat"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- Daftar Pengingat -->
+    <ListView
+        android:id="@+id/reminderListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Tombol Tambah Pengingat -->
+    <Button
+        android:id="@+id/addReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Pengingat"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</LinearLayout>

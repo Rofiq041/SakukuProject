@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SakuKu</string>
+    <string name="statistik_pengeluaran">Statistik Pengeluaran</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="tanggal_pengingat">Tanggal Pengingat</string>
+    <string name="nama_pengingat">Nama Pengingat</string>
+    <string name="simpan_transaksi">Simpan Transaksi</string>
+    <string name="simpan_pengingat">Simpan Pengingat</string>
+    <string name="hasil_pemindaian_akan_muncul_di_sini">Hasil Pemindaian akan muncul di sini</string>
+    <string name="mulai_pemindaian">Mulai Pemindaian</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pengeluaranTextView" type="id" />
+    <item name="pemasukanTextView" type="id" />
+    <item name="saldoTextView" type="id" />
+</resources>

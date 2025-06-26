@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cari transaksi..."
+        android:padding="10dp"
+        android:background="@drawable/search_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/todayButton"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="Hari Ini" />
+
+        <Button
+            android:id="@+id/weekButton"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="Minggu Ini" />
+
+        <Button
+            android:id="@+id/monthButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulan Ini" />
+
+        <Button
+            android:id="@+id/incomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pemasukan" />
+
+        <Button
+            android:id="@+id/expenseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengeluaran" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/entertainmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiburan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/transportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport" />
+
+        <Button
+            android:id="@+id/foodButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan" />
+
+        <Button
+            android:id="@+id/shoppingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belanja" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Pencarian"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/searchResultEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan kata kunci untuk mencari transaksi"
+        android:padding="10dp"
+        android:background="@drawable/search_background"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
