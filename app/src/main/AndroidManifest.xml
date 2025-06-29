@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.sakuku">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -65,23 +64,27 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
 
-        <!-- Activity untuk mencari transaksi (multiple) -->
-        <activity
-            android:name=".SearchTransactionsActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-
-        <!-- Activity untuk statistik -->
-        <activity
-            android:name=".StatisticActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+        
 
         <!-- Activity untuk statistik (alternative) -->
         <activity
             android:name=".StatisticsActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
+
+        
+
+        <!-- Activity for Settings -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Activity for Add Reminder -->
+        <activity
+            android:name=".AddReminderActivity"
+            android:exported="false"
+            android:parentActivityName=".ReminderActivity" />
 
     </application>
 </manifest>

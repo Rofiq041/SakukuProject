@@ -9,4 +9,27 @@
     <string name="simpan_pengingat">Simpan Pengingat</string>
     <string name="hasil_pemindaian_akan_muncul_di_sini">Hasil Pemindaian akan muncul di sini</string>
     <string name="mulai_pemindaian">Mulai Pemindaian</string>
+    <string name="scan_results">Hasil Pindai</string>
+    <string name="total">Total</string>
+    <string name="date">Tanggal</string>
+    <string name="merchant">Merchant</string>
+    <string name="transaction_details">Detail Transaksi</string>
+    <string name="category">Kategori</string>
+    <string name="notes">Catatan</string>
+    <string name="add_notes">Tambahkan Catatan</string>
+    <string name="edit">Edit</string>
+    <string name="save_transaction">Simpan Transaksi</string>
+    <string name="sakuku">SakuKu</string>
+    <string name="lihat_detail">Lihat Detail</string>
+    <string name="placeholder_fragment">Placeholder Fragment</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="transaction_categories">
+        <item>Makanan</item>
+        <item>Transportasi</item>
+        <item>Belanja</item>
+        <item>Hiburan</item>
+        <item>Rumah</item>
+        <item>Lainnya</item>
+    </string-array>
 </resources>

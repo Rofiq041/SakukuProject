@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Pengingat Baru"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_reminder_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Pengingat"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/et_reminder_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal (DD/MM/YYYY)"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_reminder_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waktu (HH:MM)"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_save_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan Pengingat"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
